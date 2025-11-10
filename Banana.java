@@ -3,7 +3,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Banana extends Actor
 {
     public void act(){
-        move(-20);
+        move(-3);
         
         if (getX() <= 0){
             resetBanana();
